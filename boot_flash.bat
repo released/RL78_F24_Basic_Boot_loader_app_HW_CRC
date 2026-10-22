@@ -1,4 +1,4 @@
-::.\srec_cat.exe  ..\RL78_F24_Boot_loader_UART\DefaultBuild\boot0000_4FFF.hex -Intel .\DefaultBuild\flash5000_3FFFF.hex -Intel -o .\boot_flash.hex -Intel -Output_Block_Size=16
+::.\srec_cat.exe  ..\RL78_F24_Basic_Boot_loader_UART_HW_CRC\DefaultBuild\boot0000_4FFF.hex -Intel .\DefaultBuild\flash5000_3FFFF.hex -Intel -o .\boot_flash.hex -Intel -Output_Block_Size=16
 
 :: save app code hex to back hex file
 srec_cat @1backupHex.cmd

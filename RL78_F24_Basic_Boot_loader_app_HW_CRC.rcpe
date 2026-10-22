@@ -5,7 +5,7 @@
     <PlaceholderPrefix>%</PlaceholderPrefix>
     <PlaceholderPostfix>%</PlaceholderPostfix>
   </Placeholders>
-  <Project Name="RL78_F24_Boot_loader_app_HW_CRC" Type="Application">
+  <Project Name="RL78_F24_Basic_Boot_loader_app_HW_CRC" Type="Application">
     <Files>
       <Path>main.c</Path>
       <Category Name="Smart Configurator">
@@ -182,7 +182,7 @@
         </Category>
       </Category>
       <Path>cstart.asm</Path>
-      <Path>RL78_F24_Boot_loader_UART_HW_CRC.fsy</Path>
+      <Path>RL78_F24_Basic_Boot_loader_UART_HW_CRC.fsy</Path>
     </Files>
     <DebugOptions>
       <ConnectSettings>
@@ -227,7 +227,7 @@
           <Path>DefaultBuild\r_rfd_data_flash_api.obj</Path>
           <Path>DefaultBuild\r_rfd_common_userown.obj</Path>
           <Path>DefaultBuild\cstart.obj</Path>
-          <Path>DefaultBuild\RL78_F24_Boot_loader_UART_HW_CRC.obj</Path>
+          <Path>DefaultBuild\RL78_F24_Basic_Boot_loader_UART_HW_CRC.obj</Path>
         </LinkOrder>
         <CommonOptions>
           <IncludePathForC>RFDRL78T02\sample\RL78_F24\EX_FSW\IAR\include</IncludePathForC>
@@ -377,8 +377,8 @@
     </BuildOptions>
     <Extension_SmcCodePartRL78>
       <CodeGeneratorData></CodeGeneratorData>
-      <GenerateFileFolder>D:\SourceCode\Renesas\CS+\RL78_F24_Boot_loader_app_HW_CRC</GenerateFileFolder>
-      <SCFGFile>RL78_F24_Boot_loader_app_HW_CRC.scfg</SCFGFile>
+      <GenerateFileFolder>.</GenerateFileFolder>
+      <SCFGFile>RL78_F24_Basic_Boot_loader_app_HW_CRC.scfg</SCFGFile>
       <SmcExePath>C:\Program Files (x86)\Renesas Electronics\SmartConfigurator\RL78\eclipse\SmartConfigurator.exe</SmcExePath>
       <CodeGeneratorFilesGuid>f1f83d28-5e28-4ba0-8eef-43d900de5bac</CodeGeneratorFilesGuid>
     </Extension_SmcCodePartRL78>

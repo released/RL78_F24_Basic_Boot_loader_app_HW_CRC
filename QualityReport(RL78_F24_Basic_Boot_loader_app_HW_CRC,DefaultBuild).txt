@@ -1,7 +1,7 @@
 QualityReport
 2025年4月10日 下午 07:20:40
 
------- Start build(RL78_F24_Boot_loader_app_HW_CRC, DefaultBuild) ------
+------ Start build(RL78_F24_Basic_Boot_loader_app_HW_CRC, DefaultBuild) ------
 C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\smc_gen\Config_IICA0\Config_IICA0_user.c -cpu=S3 -o DefaultBuild\Config_IICA0_user.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F124FPJ.DVF" -g -g_line -Onothing -I RFDRL78T02\sample\RL78_F24\EX_FSW\IAR\include -I RFDRL78T02\sample\RL78_F24\EX_FSW\CCRL\include -I RFDRL78T02\sample\RL78_F24\DF\IAR\include -I RFDRL78T02\sample\RL78_F24\DF\CCRL\include -I RFDRL78T02\sample\RL78_F24\CF\IAR\include -I RFDRL78T02\sample\RL78_F24\CF\CCRL\include -I RFDRL78T02\sample\common\include -I RFDRL78T02\include\rfd -I RFDRL78T02\include -I src\smc_gen\Config_UART1 -I src\smc_gen\Config_IICA0 -I src\smc_gen\Config_UART0 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_f24\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_f24 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_f24 -I src\smc_gen\r_bsp -I src\smc_gen\general -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\Config_PORT -I .\ -lang=c99 -memory_model=medium -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_a015d6cf18114a948380e71f5c23a7c8hzhd25g2.iwd -msg_lang=english
 C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\smc_gen\r_bsp\board\generic_rl78_f24\hdwinit.c -cpu=S3 -o DefaultBuild\hdwinit.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F124FPJ.DVF" -g -g_line -Onothing -I RFDRL78T02\sample\RL78_F24\EX_FSW\IAR\include -I RFDRL78T02\sample\RL78_F24\EX_FSW\CCRL\include -I RFDRL78T02\sample\RL78_F24\DF\IAR\include -I RFDRL78T02\sample\RL78_F24\DF\CCRL\include -I RFDRL78T02\sample\RL78_F24\CF\IAR\include -I RFDRL78T02\sample\RL78_F24\CF\CCRL\include -I RFDRL78T02\sample\common\include -I RFDRL78T02\include\rfd -I RFDRL78T02\include -I src\smc_gen\Config_UART1 -I src\smc_gen\Config_IICA0 -I src\smc_gen\Config_UART0 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_f24\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_f24 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_f24 -I src\smc_gen\r_bsp -I src\smc_gen\general -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\Config_PORT -I .\ -lang=c99 -memory_model=medium -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_b7e1be4ce07d49bf8b5fc7a518d722701vwgtcyp.rys -msg_lang=english
 C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\smc_gen\r_pincfg\Pin.c -cpu=S3 -o DefaultBuild\Pin.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F124FPJ.DVF" -g -g_line -Onothing -I RFDRL78T02\sample\RL78_F24\EX_FSW\IAR\include -I RFDRL78T02\sample\RL78_F24\EX_FSW\CCRL\include -I RFDRL78T02\sample\RL78_F24\DF\IAR\include -I RFDRL78T02\sample\RL78_F24\DF\CCRL\include -I RFDRL78T02\sample\RL78_F24\CF\IAR\include -I RFDRL78T02\sample\RL78_F24\CF\CCRL\include -I RFDRL78T02\sample\common\include -I RFDRL78T02\include\rfd -I RFDRL78T02\include -I src\smc_gen\Config_UART1 -I src\smc_gen\Config_IICA0 -I src\smc_gen\Config_UART0 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_f24\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_f24 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_f24 -I src\smc_gen\r_bsp -I src\smc_gen\general -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\Config_PORT -I .\ -lang=c99 -memory_model=medium -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_cadbfe6ba340420d9ddcbb368956ea9ayfk02mdh.mbw -msg_lang=english
@@ -35,9 +35,9 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe cs
 C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe RFDRL78T02\sample\common\source\common\sample_control_common.c -cpu=S3 -o DefaultBuild\sample_control_common.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F124FPJ.DVF" -g -g_line -Onothing -I RFDRL78T02\sample\RL78_F24\EX_FSW\IAR\include -I RFDRL78T02\sample\RL78_F24\EX_FSW\CCRL\include -I RFDRL78T02\sample\RL78_F24\DF\IAR\include -I RFDRL78T02\sample\RL78_F24\DF\CCRL\include -I RFDRL78T02\sample\RL78_F24\CF\IAR\include -I RFDRL78T02\sample\RL78_F24\CF\CCRL\include -I RFDRL78T02\sample\common\include -I RFDRL78T02\include\rfd -I RFDRL78T02\include -I src\smc_gen\Config_UART1 -I src\smc_gen\Config_IICA0 -I src\smc_gen\Config_UART0 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_f24\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_f24 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_f24 -I src\smc_gen\r_bsp -I src\smc_gen\general -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\Config_PORT -I .\ -lang=c99 -memory_model=medium -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_91615250dfb147b48eead1c8c6c90dbfjvebvsja.kyr -msg_lang=english
 C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\smc_gen\Config_IICA0\Config_IICA0.c -cpu=S3 -o DefaultBuild\Config_IICA0.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F124FPJ.DVF" -g -g_line -Onothing -I RFDRL78T02\sample\RL78_F24\EX_FSW\IAR\include -I RFDRL78T02\sample\RL78_F24\EX_FSW\CCRL\include -I RFDRL78T02\sample\RL78_F24\DF\IAR\include -I RFDRL78T02\sample\RL78_F24\DF\CCRL\include -I RFDRL78T02\sample\RL78_F24\CF\IAR\include -I RFDRL78T02\sample\RL78_F24\CF\CCRL\include -I RFDRL78T02\sample\common\include -I RFDRL78T02\include\rfd -I RFDRL78T02\include -I src\smc_gen\Config_UART1 -I src\smc_gen\Config_IICA0 -I src\smc_gen\Config_UART0 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_f24\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_f24 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_f24 -I src\smc_gen\r_bsp -I src\smc_gen\general -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\Config_PORT -I .\ -lang=c99 -memory_model=medium -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_077a7c72c765445ba6332dd95bc66cf2hniciob2.2wf -msg_lang=english
 C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe RFDRL78T02\source\common\r_rfd_common_extension_api.c -cpu=S3 -o DefaultBuild\r_rfd_common_extension_api.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F124FPJ.DVF" -g -g_line -Onothing -I RFDRL78T02\sample\RL78_F24\EX_FSW\IAR\include -I RFDRL78T02\sample\RL78_F24\EX_FSW\CCRL\include -I RFDRL78T02\sample\RL78_F24\DF\IAR\include -I RFDRL78T02\sample\RL78_F24\DF\CCRL\include -I RFDRL78T02\sample\RL78_F24\CF\IAR\include -I RFDRL78T02\sample\RL78_F24\CF\CCRL\include -I RFDRL78T02\sample\common\include -I RFDRL78T02\include\rfd -I RFDRL78T02\include -I src\smc_gen\Config_UART1 -I src\smc_gen\Config_IICA0 -I src\smc_gen\Config_UART0 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_f24\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_f24 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_f24 -I src\smc_gen\r_bsp -I src\smc_gen\general -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\Config_PORT -I .\ -lang=c99 -memory_model=medium -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_0c5a56138bf940ccbc15bde5dba3db4djd2tgeya.xz4 -msg_lang=english
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe RL78_F24_Boot_loader_UART_HW_CRC.fsy -cpu=S3 -o DefaultBuild\RL78_F24_Boot_loader_UART_HW_CRC.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F124FPJ.DVF" -g -I . -I src\smc_gen\r_config -I src\smc_gen\r_bsp\board\generic_rl78_f24 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_e3eb6a93214048cfb080700a638c3a5db0vlrzzq.5z3 -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe RL78_F24_Basic_Boot_loader_UART_HW_CRC.fsy -cpu=S3 -o DefaultBuild\RL78_F24_Basic_Boot_loader_UART_HW_CRC.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F124FPJ.DVF" -g -I . -I src\smc_gen\r_config -I src\smc_gen\r_bsp\board\generic_rl78_f24 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_e3eb6a93214048cfb080700a638c3a5db0vlrzzq.5z3 -msg_lang=english
 C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\smc_gen\r_bsp\board\generic_rl78_f24\stkinit.asm -cpu=S3 -o DefaultBuild\stkinit.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F124FPJ.DVF" -g -I . -I src\smc_gen\r_config -I src\smc_gen\r_bsp\board\generic_rl78_f24 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_a9bcb613724e428381d6582b9bd8aebb2az5qy3k.3qu -msg_lang=english
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\rlink.exe -MAKEUD=DefaultBuild\RL78_F24_Boot_loader_app_HW_CRC.lk.ud -subcommand=DefaultBuild\RL78_F24_Boot_loader_app_HW_CRC.clnk
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\rlink.exe -MAKEUD=DefaultBuild\RL78_F24_Basic_Boot_loader_app_HW_CRC.lk.ud -subcommand=DefaultBuild\RL78_F24_Basic_Boot_loader_app_HW_CRC.clnk
 W0561017:Paid license of CC-RL V1 is not found, and the evaluation period has expired. Please consider purchasing the product.
 W0561100:Cannot find "const" specified in option "start"
 RAMDATA SECTION:  00000653 Byte(s)
@@ -54,15 +54,15 @@ W0561140:Load address overflowed out of record-type in option "record"
 CODE    : 4b01
 ADDRESS : 0003fbfe
 Renesas Optimizing Linker Completed
-D:\SourceCode\_Avery_Renesas\CS+\RL78_F24_Boot_loader_app_HW_CRC>boot_flash.bat
-D:\SourceCode\_Avery_Renesas\CS+\RL78_F24_Boot_loader_app_HW_CRC>srec_cat @1backupHex.cmd 
-D:\SourceCode\_Avery_Renesas\CS+\RL78_F24_Boot_loader_app_HW_CRC>srec_cat @4generateCRCBin.cmd 
-D:\SourceCode\_Avery_Renesas\CS+\RL78_F24_Boot_loader_app_HW_CRC>srec_cat @6generateBootAppHex.cmd 
-D:\SourceCode\_Avery_Renesas\CS+\RL78_F24_Boot_loader_app_HW_CRC>srec_cat @7generateBootAppBin.cmd 
------- Build ended(Error:0, Warning:7)(RL78_F24_Boot_loader_app_HW_CRC, DefaultBuild) ------
+D:\SourceCode\_Avery_Renesas\CS+\RL78_F24_Basic_Boot_loader_app_HW_CRC>boot_flash.bat
+D:\SourceCode\_Avery_Renesas\CS+\RL78_F24_Basic_Boot_loader_app_HW_CRC>srec_cat @1backupHex.cmd 
+D:\SourceCode\_Avery_Renesas\CS+\RL78_F24_Basic_Boot_loader_app_HW_CRC>srec_cat @4generateCRCBin.cmd 
+D:\SourceCode\_Avery_Renesas\CS+\RL78_F24_Basic_Boot_loader_app_HW_CRC>srec_cat @6generateBootAppHex.cmd 
+D:\SourceCode\_Avery_Renesas\CS+\RL78_F24_Basic_Boot_loader_app_HW_CRC>srec_cat @7generateBootAppBin.cmd 
+------ Build ended(Error:0, Warning:7)(RL78_F24_Basic_Boot_loader_app_HW_CRC, DefaultBuild) ------
 
 --- CommandFile 1 ---
-DefaultBuild\RL78_F24_Boot_loader_app_HW_CRC.clnk :
+DefaultBuild\RL78_F24_Basic_Boot_loader_app_HW_CRC.clnk :
 -Input=DefaultBuild\main.obj
 -Input=DefaultBuild\Config_PORT.obj
 -Input=DefaultBuild\Config_PORT_user.obj
@@ -96,19 +96,19 @@ DefaultBuild\RL78_F24_Boot_loader_app_HW_CRC.clnk :
 -Input=DefaultBuild\r_rfd_data_flash_api.obj
 -Input=DefaultBuild\r_rfd_common_userown.obj
 -Input=DefaultBuild\cstart.obj
--Input=DefaultBuild\RL78_F24_Boot_loader_UART_HW_CRC.obj
+-Input=DefaultBuild\RL78_F24_Basic_Boot_loader_UART_HW_CRC.obj
 -SECURITY_ID=00000000000000000000000000000000
 -DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F124FPJ.DVF
 -DEBug
 -NOCOmpress
 -NOOPtimize
--OUtput=DefaultBuild\RL78_F24_Boot_loader_app_HW_CRC.abs
+-OUtput=DefaultBuild\RL78_F24_Basic_Boot_loader_app_HW_CRC.abs
 -OCDBG=A5
 -SECURITY_OPT_BYTE=FE
 -DEBUG_MONITOR=3FE00-3FFFF
 -USER_OPT_BYTE=EFE3E8
 -ENTry=_start
--LISt=DefaultBuild\RL78_F24_Boot_loader_app_HW_CRC.map
+-LISt=DefaultBuild\RL78_F24_Basic_Boot_loader_app_HW_CRC.map
 -SHow=ALL
 -AUTO_SECTION_LAYOUT
 -STARt=const,.text,.RLIB,.SLIB,.textf,.constf,.data,.sdata,.init_array,RFD_DATA_n,RFD_CMN_f,RFD_DF_f,SMP_CMN_f,SMP_DF_f/05200,.dataR,.bss,RFD_DATA_nR/F9F00,.boot_info/FF700,.sdataR,.sbss/FFE20
@@ -118,11 +118,11 @@ DefaultBuild\RL78_F24_Boot_loader_app_HW_CRC.clnk :
 -NOMessage
 -Total_size
 -NOLOgo
--LIBrary=DefaultBuild\RL78_F24_Boot_loader_app_HW_CRC.lib
+-LIBrary=DefaultBuild\RL78_F24_Basic_Boot_loader_app_HW_CRC.lib
 -end
--Input=DefaultBuild\RL78_F24_Boot_loader_app_HW_CRC.abs
+-Input=DefaultBuild\RL78_F24_Basic_Boot_loader_app_HW_CRC.abs
 -DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F124FPJ.DVF
--OUtput=DefaultBuild\RL78_F24_Boot_loader_app_HW_CRC.hex
+-OUtput=DefaultBuild\RL78_F24_Basic_Boot_loader_app_HW_CRC.hex
 -FOrm=Hexadecimal
 -REcord=H16
 -BYte_count=10
@@ -130,7 +130,7 @@ DefaultBuild\RL78_F24_Boot_loader_app_HW_CRC.clnk :
 -VERBOSE=CRC
 -NOMessage
 -end
--Input=DefaultBuild\RL78_F24_Boot_loader_app_HW_CRC.abs
+-Input=DefaultBuild\RL78_F24_Basic_Boot_loader_app_HW_CRC.abs
 -DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F124FPJ.DVF
 -OUtput=DefaultBuild\flash5000_3FBFF.hex=5000-3FBFF
 -FOrm=Hexadecimal
@@ -144,9 +144,9 @@ DefaultBuild\RL78_F24_Boot_loader_app_HW_CRC.clnk :
 
 
 --- SHA1 hash value of output files ---
-D:\SourceCode\_Avery_Renesas\CS+\RL78_F24_Boot_loader_app_HW_CRC\DefaultBuild\RL78_F24_Boot_loader_app_HW_CRC.abs: 8eb2c54c47e68113d9abba9d426e255824d7ad91
-D:\SourceCode\_Avery_Renesas\CS+\RL78_F24_Boot_loader_app_HW_CRC\DefaultBuild\RL78_F24_Boot_loader_app_HW_CRC.hex: 7ca5f8d432c78c8fb42f66a8387959bdff0ce0b0
-D:\SourceCode\_Avery_Renesas\CS+\RL78_F24_Boot_loader_app_HW_CRC\DefaultBuild\flash5000_3FBFF.hex: ada943813bd142cd1b06f3da4a0cd3635781a9e4
+D:\SourceCode\_Avery_Renesas\CS+\RL78_F24_Basic_Boot_loader_app_HW_CRC\DefaultBuild\RL78_F24_Basic_Boot_loader_app_HW_CRC.abs: 8eb2c54c47e68113d9abba9d426e255824d7ad91
+D:\SourceCode\_Avery_Renesas\CS+\RL78_F24_Basic_Boot_loader_app_HW_CRC\DefaultBuild\RL78_F24_Basic_Boot_loader_app_HW_CRC.hex: 7ca5f8d432c78c8fb42f66a8387959bdff0ce0b0
+D:\SourceCode\_Avery_Renesas\CS+\RL78_F24_Basic_Boot_loader_app_HW_CRC\DefaultBuild\flash5000_3FBFF.hex: ada943813bd142cd1b06f3da4a0cd3635781a9e4
 
 
 --- System Information ---
@@ -330,7 +330,7 @@ Device Information Common Interface
   DeviceInformation.dll
 
 --- Main Project Information ---
-D:\SourceCode\_Avery_Renesas\CS+\RL78_F24_Boot_loader_app_HW_CRC\RL78_F24_Boot_loader_app_HW_CRC.mtpj
+D:\SourceCode\_Avery_Renesas\CS+\RL78_F24_Basic_Boot_loader_app_HW_CRC\RL78_F24_Basic_Boot_loader_app_HW_CRC.mtpj
 Microcontroller Information
  *R7F124FPJ5xFB
   *File Name: Version
